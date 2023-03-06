@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+  >
+    <EditText
+        android:id="@+id/et_forgetPass"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:textColor="@color/gray"
+        android:backgroundTint="@color/gray"
+        android:textColorHint="#808080"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:textSize="24dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnForgetPassword"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="Rest Password"
+        android:textSize="26dp"
+        style="bold"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/remember_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remember password"
+        android:layout_marginLeft="12dp"
+        android:textColor="@color/primaryTextColor"
+        android:background="@android:color/transparent"
+
+        />
+
+</LinearLayout>
